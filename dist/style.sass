@@ -1,0 +1,64 @@
+// Подключение шрифтов
+@font-face
+    font-family: "Cormorant-Regular"
+    src: url(fonts/Cormorant-Regular.woff) format("woff")
+@font-face
+    font-family: "Cormorant-Bold"
+    src: url(fonts/Cormorant-Bold.woff) format("woff")
+// ...
+@font-face
+    font-family: "Cormorant-BoldItalic"
+    src: url(fonts/Cormorant-BoldItalic.woff) format("woff")
+// ...
+@font-face
+    font-family: "Jost-Regular"
+    src: url(fonts/Jost-Regular.woff) format("woff")
+@font-face
+    font-family: "Jost-Bold"
+    src: url(fonts/Jost-Bold.woff) format("woff")
+@font-face
+    font-family: "Jost-BoldItalic"
+    src: url(fonts/Jost-BoldItalic.woff) format("woff")
+// ...
+
+.container
+    display: flex
+    flex-wrap: wrap
+    margin: 0 auto
+
+// Селекторы тегов
+h1
+    font-family: "OpenSans-Extrabold"
+    font-size: 4.0rem
+    line-height: 5.0rem
+    font-weight: bold
+    text-transform: uppercase
+h2
+    font-family: "OpenSans-Bold"
+    font-size: 2.5rem
+    line-height: 3.5rem
+    font-weight: bold
+    letter-spacing: 1.0px
+h3
+    font-family: "OpenSans-Regular"
+    font-size: 1.5rem
+    line-height: 2.0rem
+    font-weight: bold
+    letter-spacing: 1.0px
+p
+    font-family: "OpenSans-Regular"
+    font-size: 1.0rem
+    line-height: 1.5rem
+button
+    width: 14.0rem
+    height: 3.5rem
+    color: rgba(255,255,255,1.0)
+    background-color: rgba(225,45,45,1.0)
+    border: none
+    border-radius: 0.5rem
+img
+    width: 100%
+
+@media screen and ( min-width: 1200px )
+    .container
+        max-width: 1200px
